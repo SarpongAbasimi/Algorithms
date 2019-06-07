@@ -11,9 +11,9 @@ class Timer:
         return built_list_size
     
     def cal_time(self, a_list, algorithm):
-        print(datetime.now().time())
+        start_time = datetime.now()
         algorithm(a_list)
-        print(datetime.now().time())
+        return(datetime.now() - start_time)
 
 
 
@@ -26,4 +26,4 @@ def reverse_(a_list):
 
 timer = Timer()
 
-print( timer.cal_time([2,3,4,5,6], reverse_)   )
+print(timer.cal_time([2,3,4,5,6], reverse_))
