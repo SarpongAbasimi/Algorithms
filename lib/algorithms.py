@@ -11,9 +11,16 @@ class MyAlgorithms:
         return reversed_array
         
     def duplicate_(self, a_list):
+        duplicates = []
         if type(a_list) != list:
             return []
-        else: 
-            return(list(dict.fromkeys(a_list)))
+        for i in a_list:
+            if a_list.count(i) > 1 and i not in duplicates:
+                duplicates.append(i)
+        return duplicates
+        
 
 
+
+a = MyAlgorithms()
+print(a.duplicate_([1,3,4,5,5]))
