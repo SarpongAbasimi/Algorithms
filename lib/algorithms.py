@@ -1,8 +1,13 @@
-print('I am being called')
-class Algorithms():
-    def do_reverse(self, list_input):
-        list_input.reverse()
-        return list_input
+print('I was just called')
+class MyAlgorithms:
+    def reverse_(self, a_list):
+        reversed_array = []
+        if type(a_list) == str:
+            return []
+        counter = len(a_list) - 1
+        while counter >= 0:
+            reversed_array.append(a_list[counter])
+            counter -= 1
+        return reversed_array
 
-    def do_sort(self, list_input):
-        list_input.sort()
+

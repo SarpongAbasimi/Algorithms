@@ -1,5 +1,5 @@
 from datetime import datetime
-
+from algorithms import MyAlgorithms
 
 class Timer:
     def build_list_of_size(self, list_size):
@@ -15,15 +15,7 @@ class Timer:
         algorithm(a_list)
         return(datetime.now() - start_time)
 
-
-
-
-
-
-def reverse_(a_list):
-    return a_list.reverse()
-
-
 timer = Timer()
+algo = MyAlgorithms()
 
-print(timer.cal_time([2,3,4,5,6], reverse_))
+print(timer.cal_time([1,2,3,4,5,6], algo.reverse_))
