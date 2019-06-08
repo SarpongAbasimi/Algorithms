@@ -15,5 +15,10 @@ class TestMyAlgorithms:
     
     def test_reverse_method_reverses_many_elements_in_list(self, instantian_alorithim):
         assert instantian_alorithim.reverse_([4,6,8,3,6,0,2,1,5,6,7]) == [7, 6, 5, 1, 2, 0, 6, 3, 8, 6, 4]
+    
+    def test_duplicate_method_returns_an_empty_array_if_no_duplicate(self, instantian_alorithim):
+        list_with_out_duplicates = [1,2,4]
+        assert instantian_alorithim.duplicate_(list_with_out_duplicates) == list_with_out_duplicates 
+
 
 
