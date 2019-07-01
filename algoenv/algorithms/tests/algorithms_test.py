@@ -17,4 +17,8 @@ class TestAlgorithms(object):
   
   def test_that_it_returns_list_if_passed_string(self, algorithm):
     assert algorithm.reverse_('s')  == []
+  
+  def test_reverse_slice_method(self, algorithm):
+    assert algorithm.reverse_slice_([1,3]) == [3,1]
+    assert algorithm.reverse_slice_('s')  == []
 
