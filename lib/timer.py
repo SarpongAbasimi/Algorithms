@@ -1,5 +1,5 @@
 from datetime import datetime
-# from algorithms import MyAlgorithms
+from timeit import timeit
 
 class Timer:
     def build_list_of_size(self, list_size):
