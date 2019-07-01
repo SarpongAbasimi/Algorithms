@@ -72,5 +72,12 @@ Challenges.
 
 > After a bit of research and talking to to ``Mike`` a coach at Makers, we came to a conclusion that it had something to to with the path. when this line, ``from algorithms import Algorithms`` is changed to ``from lib.algorithms import Algorithms`` pytest worked fine but currently it is not.
 
+``1st july 2019``
 
+- Today I learnt that writing a reverse algorithm like this ``a_list[::-1]`` is much faster than using 
+loops or even recursion.
 
+```python
+  def reverse_slice_(self, a_list):
+    return [] if type(a_list) == str else a_list[::-1]
+```
