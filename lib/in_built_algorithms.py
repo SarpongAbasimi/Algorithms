@@ -6,3 +6,4 @@ class Algorithms():
 
     def do_sort(self, list_input):
         list_input.sort()
+    
