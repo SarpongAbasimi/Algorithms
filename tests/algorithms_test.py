@@ -1,5 +1,8 @@
+import sys, os, pytest
+current_path = os.path.dirname(__file__)
+sys.path.insert(0, current_path + '/../')
 from lib.algorithms import MyAlgorithms
-import pytest
+
 
 @pytest.fixture()
 def instantian_alorithim():
