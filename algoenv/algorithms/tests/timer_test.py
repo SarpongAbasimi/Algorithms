@@ -3,7 +3,7 @@ import os, sys, pytest
 CURRENTPATH = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, CURRENTPATH + '/../')
 
-from lib.timer import Timer
+from src.timer import Timer
 
 @pytest.fixture()
 def timer():

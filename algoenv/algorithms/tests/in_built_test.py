@@ -3,7 +3,7 @@ import os, sys, pytest
 CURRENTPATH = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, CURRENTPATH + '/../')
 
-from lib.in_built import BuiltInAlgorithms
+from src.in_built import BuiltInAlgorithms
 
 @pytest.fixture()
 def algo():

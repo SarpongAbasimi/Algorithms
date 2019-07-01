@@ -2,7 +2,7 @@ import sys, os, pytest
 current_path = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(current_path + '/../')
 
-from lib.algorithms import Algorithms
+from src.algorithms import Algorithms
 
 @pytest.fixture
 def algorithm():
