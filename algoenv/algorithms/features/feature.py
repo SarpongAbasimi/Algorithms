@@ -6,3 +6,9 @@ from lib.timer import Timer
 from lib.in_built import BuiltInAlgorithms
 
 
+timer = Timer()
+inbuilt_algorithm = BuiltInAlgorithms()
+
+timer.calculate_time(timer.build(100), inbuilt_algorithm.reverse_list)
+timer.calculate_time(timer.build(100), inbuilt_algorithm.do_shuffle)
+timer.calculate_time(timer.build(100), inbuilt_algorithm.do_sort)
