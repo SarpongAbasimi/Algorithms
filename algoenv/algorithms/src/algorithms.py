@@ -14,3 +14,12 @@ class Algorithms():
   def reverse_slice_(self, a_list):
     return [] if type(a_list) == str else a_list[::-1]
   
+  def duplicate_(self, a_list):
+    duplicates = []
+    if type(a_list) != list:
+      return []
+    for i in a_list:
+      if a_list.count(i) > 1 and i not in duplicates:
+        duplicates.append(i)
+    return duplicates
+  
