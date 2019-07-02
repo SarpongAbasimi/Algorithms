@@ -25,11 +25,15 @@ class TestAlgorithms(object):
   def test_duplicate_returns_list_when_pass_string(self, algorithm):
     assert algorithm.duplicate_('s') == []
   
-  def test_duplicate_returns_diplicates_in_list(self, algorithm):
+  def test_duplicate_returns_duplicates_in_list(self, algorithm):
     assert algorithm.duplicate_([1,2,1]) == [1]
   
-  def test_duplicate_returns_diplicates_in_list(self, algorithm):
+  def test_duplicate_returns_duplicates_in_list(self, algorithm):
     assert algorithm.duplicate_([1,2,1,2,3,3,3,3,4,4,4,1,4]) == [1, 2, 3, 4]
+  
+  def test_last_in_list(self, algorithm):
+    assert algorithm.last([1, 2]) == 2
+    assert algorithm.last([1, 2, 5, 6]) == 6
     
 
 

@@ -1,9 +1,8 @@
 class Algorithms():
-  def reverse_(self,a_list):
 
+  def reverse_(self,a_list):
     reversed_array = []
     counter = len(a_list) - 1
-
     if type(a_list) == str:
         return []
     while counter >= 0:
@@ -22,4 +21,7 @@ class Algorithms():
       if a_list.count(i) > 1 and i not in duplicates:
         duplicates.append(i)
     return duplicates
+
+  def last(self, a_list):
+    return a_list[-1]
   
