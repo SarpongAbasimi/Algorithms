@@ -12,3 +12,6 @@ class BuiltInAlgorithms():
   
   def do_shuffle(self, a_list):
     shuffle(a_list)
+  
+  def do_last(self, a_list):
+    return a_list[-1]
