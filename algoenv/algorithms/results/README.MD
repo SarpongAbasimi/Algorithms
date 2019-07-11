@@ -17,12 +17,15 @@
 
 
 <h1 align='center'>
- Results For In My Functions.
+ Results For My Functions.
 </h1>
 
-#### Reverse
+#### Reverse.
 <img width="1143" alt="Screen Shot 2019-07-11 at 12 11 07" src="https://user-images.githubusercontent.com/37377831/61046544-51f6c880-a3d5-11e9-8d8b-a98b7e8a4316.png">
 
-#### Reverse(slice method)
+#### Reverse(slice method).
 <img width="1143" alt="Screen Shot 2019-07-11 at 12 31 30" src="https://user-images.githubusercontent.com/37377831/61047701-fd088180-a3d7-11e9-8a57-24de8cd72116.png">
 
+#### Duplicate.
+
+<img width="1143" alt="Screen Shot 2019-07-11 at 14 03 36" src="https://user-images.githubusercontent.com/37377831/61053105-c84ef700-a3e4-11e9-8ffc-d5f814e71e5f.png">
