@@ -1,3 +1,5 @@
+import random
+
 class Algorithms():
 
   def reverse_(self,a_list):
@@ -24,4 +26,10 @@ class Algorithms():
 
   def last(self, a_list):
     return a_list[-1]
-  
+
+  def shuffle_(self, arr):
+    arr_range = range(0, len(arr))
+    for i in arr_range:
+      j = random.randint(arr_range[0], arr_range[-1])
+      arr[i], arr[j] = arr[j], arr[i]
+    return arr

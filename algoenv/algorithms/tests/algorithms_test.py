@@ -1,4 +1,4 @@
-import sys, os, pytest
+import sys, os, pytest, random
 current_path = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(current_path + '/../')
 
@@ -34,6 +34,3 @@ class TestAlgorithms(object):
   def test_last_in_list(self, algorithm):
     assert algorithm.last([1, 2]) == 2
     assert algorithm.last([1, 2, 5, 6]) == 6
-    
-
-
