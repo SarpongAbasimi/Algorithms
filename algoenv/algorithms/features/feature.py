@@ -17,6 +17,6 @@ inbuilt_algorithm = BuiltInAlgorithms()
 
 # timer.calculate_time(timer.build(100000), algorithm.reverse_)
 # print('**********')
-timer.calculate_time(timer.build(65000), algorithm.duplicate_)
+timer.calculate_time(timer.build(100000), algorithm.shuffle_)
 # print('**********')
 # timer.calculate_time(timer.build(10000), inbuilt_algorithm.reverse_list)

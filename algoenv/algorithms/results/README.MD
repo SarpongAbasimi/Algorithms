@@ -29,3 +29,7 @@
 #### Duplicate.
 
 <img width="1143" alt="Screen Shot 2019-07-11 at 14 03 36" src="https://user-images.githubusercontent.com/37377831/61053105-c84ef700-a3e4-11e9-8ffc-d5f814e71e5f.png">
+
+#### Shuffle.
+
+<img width="846" alt="Screen Shot 2019-07-15 at 17 18 31" src="https://user-images.githubusercontent.com/37377831/61231773-b17e0c80-a724-11e9-9a45-91ca5f12a4cb.png">
